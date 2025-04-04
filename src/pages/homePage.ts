@@ -5,7 +5,7 @@ const homePage = (): string => `
         Website</h1>
         <div class="flex flex-col md:flex-row gap-5">
             <div class="w-full md:w-1/2">
-                <img src="src/assets/images/s9-end-tour.jpg" alt="The Titancraft Community" class="block">
+                <img src="/images/s9-end-tour.jpg" alt="The Titancraft Community" class="block">
                 <p class="text block text-center text-shadow">
                 The Titancraft Community, End of Season 9
                 <a class="link text-shadow"

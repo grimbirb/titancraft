@@ -43,7 +43,7 @@ const aboutPage = () => {
           </section>
           <div class="flex justify-center gap-5">
             <div class="flex flex-col w-full md:w-1/2 items-center">
-              <img class="block" src="src/assets/images/s10_hub.png" alt="Season 10 Nether Hub" />
+              <img class="block" src="/images/s10_hub.png" alt="Season 10 Nether Hub" />
               <p class="text text-shadow text-center">Season 10 Nether Hub designed by xWildSlicerx</p>
             </div>
           </div>

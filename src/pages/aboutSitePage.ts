@@ -22,7 +22,7 @@ const aboutSitePage = (): string => {
                     <p>Also, I stream on <a class='text-indigo-600 hover:underline' href='https://www.twitch.tv/grimbirb' target='_blank' referrerpolicy='no-referrer' rel='noopener'>Twitch</a> and have a Titancraft series on <a class='link' href='https://www.youtube.com/@grimbirb' target='_blank' referrerpolicy='no-referrer' rel='noopener'>YouTube</a>! :P (sorry Caable, stole your plug!)</p>
                 </section>
                 <div class='w-2/3 md:w-1/3'>
-                    <img class='block' src='src/assets/images/grimbirb.png' alt="GrimBirb's Avatar" />
+                    <img class='block' src='/images/grimbirb.png' alt="GrimBirb's Avatar" />
                 </div>
             </div>
         </section>

@@ -9,7 +9,7 @@ const displayStaff = (): string => {
       rtl ? "md:flex-row-reverse" : ""
     }">
       <div class="w-3/5 md:w-1/8">
-        <img class="block" src="src/assets/images/staff/${staff.name.toLocaleLowerCase()}.png" alt="${
+        <img class="block" src="/images/staff/${staff.name.toLocaleLowerCase()}.png" alt="${
       staff.name
     }"/>
       </div>
