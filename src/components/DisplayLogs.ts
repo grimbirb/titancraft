@@ -5,9 +5,9 @@ const displayLogs = (): string => {
 
   changeLogs.forEach((log) => {
     str += `<div>
-    <h2 class='text text-shadow font-bold text-2xl'>${log.date}, Version ${log.version}</h2>`;
+    <h2 class='text font-bold text-2xl'>${log.date}, Version ${log.version}</h2>`;
 
-    str += `<ul class='text text-shadow'>`;
+    str += `<ul class='text'>`;
 
     log.features.forEach((f) => (str += `<li>- ${f}</li>`));
 

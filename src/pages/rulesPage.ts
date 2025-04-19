@@ -15,7 +15,7 @@ const rulesPage = () => {
   return `
     <main>
       <section class="flex bg-(--background-color) p-3 rounded-lg flex-col gap-3 mb-3">
-        <section class='text text-shadow text-lg font-medium text-center px-3 md:px-30 flex flex-col gap-3'>
+        <section class='text text-lg font-medium text-center px-3 md:px-30 flex flex-col gap-3'>
           <h2 class='text-3xl font-bold'>Rules & FAQ Notes:</h2>
           <p>
             Upon entering the <span class='text-indigo-700'>Discord server</span>, you will be very limited on what channels you can see or use. <br/>
@@ -41,7 +41,7 @@ const rulesPage = () => {
   )}</span>, started on <span class='underline'>${getServer("date")}</span>.
           </p>
         </section>
-        <h2 class='text text-shadow text-2xl font-bold text-center'>What would you like to know:</h2>
+        <h2 class='text text-2xl font-bold text-center'>What would you like to know:</h2>
         <div class="flex gap-2 justify-center flex-wrap">
           <button id="discord-btn" class="text-white text text-shadow py-1 px-2 bg-indigo-400 rounded-md hover:bg-indigo-500 hover:cursor-pointer selected-status">Discord Rules</button>
           <button id="tc-btn" class="text-white text text-shadow py-1 px-2 bg-red-600 rounded-md hover:bg-red-700 hover:cursor-pointer">Titancraft Rules</button>

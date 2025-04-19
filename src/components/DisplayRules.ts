@@ -14,12 +14,12 @@ const displayRules = (info: string): string => {
       str += `<div class='px- md:px-30 flex flex-col gap-4'>`;
       discordRules.forEach((rule) => {
         rule.header
-          ? (str += `<h1 class='text text-shadow font-bold text-3xl text-center'>${rule.header}</h1>`)
+          ? (str += `<h1 class='text font-bold text-3xl text-center'>${rule.header}</h1>`)
           : "";
 
         str += `<div>
-        <h2 class='text text-shadow font-bold text-2xl'>${rule.subheader}</h2>
-        <p class='text text-shadow'>${rule.paragraph}</p>
+        <h2 class='text font-bold text-2xl'>${rule.subheader}</h2>
+        <p class='text'>${rule.paragraph}</p>
         </div>
         `;
       });
@@ -34,12 +34,12 @@ const displayRules = (info: string): string => {
       str += `<div class='px-3 md:px-30 flex flex-col gap-4'>`;
       tcRules.forEach((rule) => {
         rule.header
-          ? (str += `<h1 class='text text-shadow font-bold text-3xl text-center'>${rule.header}</h1>`)
+          ? (str += `<h1 class='text font-bold text-3xl text-center'>${rule.header}</h1>`)
           : "";
 
         str += `<div>
-        <h2 class='text text-shadow font-bold text-2xl'>${rule.subheader}</h2>
-        <p class='text text-shadow'>${rule.paragraph}</p>
+        <h2 class='text font-bold text-2xl'>${rule.subheader}</h2>
+        <p class='text'>${rule.paragraph}</p>
         </div>
         `;
       });
@@ -54,12 +54,12 @@ const displayRules = (info: string): string => {
       str += `<div class='px-3 md:px-30 flex flex-col gap-4'>`;
       faq.forEach((rule) => {
         rule.header
-          ? (str += `<h1 class='text text-shadow font-bold text-3xl text-center'>${rule.header}</h1>`)
+          ? (str += `<h1 class='text font-bold text-3xl text-center'>${rule.header}</h1>`)
           : "";
 
         str += `<div>
-        <h2 class='text text-shadow font-bold text-2xl'>${rule.subheader}</h2>
-        <p class='text text-shadow'>${rule.paragraph}</p>
+        <h2 class='text font-bold text-2xl'>${rule.subheader}</h2>
+        <p class='text'>${rule.paragraph}</p>
         </div>
         `;
       });

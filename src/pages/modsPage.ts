@@ -38,25 +38,25 @@ const modsPage = (): string => {
   return `
   <main>
     <section class="flex bg-(--background-color) p-3 rounded-lg flex-col gap-5 mb-3">
-      <h1 class="text text-shadow font-bold text-3xl text-center">Client Side Mods</h1>
+      <h1 class="text font-bold text-3xl text-center">Client Side Mods</h1>
       <div>
-        <p class="text text-shadow text-center">All mods need to be approved by the <a class="text staff hover:underline font-bold" href="./staff">Titancraft Staff</a>. Using a mod not approved will be subject to consequences.</p>
-        <p class="text text-shadow text-center">If a mod is not listed, or no longer <span class="text-(--outdated-color)">outdated</span> that you would like to use, please contact us with a link to the mod in <a href="https://discord.com/channels/184801826103754752/188513898616324097" target="_blank" referrerpolicy="no-referrer" rel="noopener" class="underline">#ask-a-mod</a>.</p>
+        <p class="text text-center">All mods need to be approved by the <a class="text staff hover:underline font-bold" href="./staff">Titancraft Staff</a>. Using a mod not approved will be subject to consequences.</p>
+        <p class="text text-center">If a mod is not listed, or no longer <span class="text-(--outdated-color)">outdated</span> that you would like to use, please contact us with a link to the mod in <a href="https://discord.com/channels/184801826103754752/188513898616324097" target="_blank" referrerpolicy="no-referrer" rel="noopener" class="underline">#ask-a-mod</a>.</p>
       </div>
       <div class="flex gap-2 justify-center flex-wrap">
-        <p class="w-full text text-shadow text-center underline">Filter mods by status:</p>
-        <button id="all-btn" class="text text-shadow py-1 px-2 bg-[#fff] rounded-md hover:bg-[#ddd] hover:cursor-pointer selected-status">All Mods</button>
-        <button id="approved-btn" class="text-white text text-shadow py-1 px-2 bg-(--approved-color) rounded-md hover:bg-[#0a0] hover:cursor-pointer">Approved Mods</button>
-        <button id="partial-btn" class="text-white text text-shadow py-1 px-2 bg-(--partial-color) rounded-md hover:bg-[#D9A61F] hover:cursor-pointer">Partially Accepted Mods</button>
-        <button id="rejected-btn" class="text-white text text-shadow py-1 px-2 bg-(--rejected-color) rounded-md hover:bg-[#a00] hover:cursor-pointer">Rejected Mods</button>
-        <button id="outdated-btn" class="text-white text text-shadow py-1 px-2 bg-(--outdated-color) rounded-md hover:bg-[#101828] hover:cursor-pointer">Outdated Mods</button>
+        <p class="w-full text text-center underline">Filter mods by status:</p>
+        <button id="all-btn" class="text py-1 px-2 bg-[#fff] rounded-md hover:bg-[#ddd] hover:cursor-pointer selected-status">All Mods</button>
+        <button id="approved-btn" class="text-white text py-1 px-2 bg-(--approved-color) rounded-md hover:bg-[#0a0] hover:cursor-pointer">Approved Mods</button>
+        <button id="partial-btn" class="text-white text py-1 px-2 bg-(--partial-color) rounded-md hover:bg-[#D9A61F] hover:cursor-pointer">Partially Accepted Mods</button>
+        <button id="rejected-btn" class="text-white text py-1 px-2 bg-(--rejected-color) rounded-md hover:bg-[#a00] hover:cursor-pointer">Rejected Mods</button>
+        <button id="outdated-btn" class="text-white text py-1 px-2 bg-(--outdated-color) rounded-md hover:bg-[#101828] hover:cursor-pointer">Outdated Mods</button>
       </div>
       <div class="flex flex-col md:flex-row justify-center gap-1 md:gap-7 items-center">
         <div>
           <input type='search' name='q' id='search-input' placeholder='Search for a mod...' class='bg-white rounded-sm p-1 focus-visible:outline-none'/>
           <button id='search' class='bg-stone-900 hover:bg-stone-950 rounded-sm px-3 py-1 text-white'>Search</button>
         </div>
-        <label for='version-select' class="text text-shadow">Select version:</label>
+        <label for='version-select' class="text">Select version:</label>
         <select name='versions' id='version-select' class="bg-white rounded-sm px-2 py-1">
           <option value=''>-</option>
           ${versions.forEach((version) => {

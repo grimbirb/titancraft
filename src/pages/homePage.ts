@@ -1,14 +1,14 @@
 const homePage = (): string => `
 <main>
     <section class="flex bg-(--background-color) p-3 rounded-lg flex-col gap-2 mb-3">
-        <h1 class="text text-shadow font-bold text-3xl text-center">Welcome to the Titancraft
+        <h1 class="text font-bold text-3xl text-center">Welcome to the Titancraft
         Website</h1>
         <div class="flex flex-col md:flex-row gap-5">
             <div class="w-full md:w-1/2">
                 <img src="/images/s9-end-tour.jpg" alt="The Titancraft Community" class="block">
-                <p class="text block text-center text-shadow">
+                <p class="text block text-center">
                 The Titancraft Community, End of Season 9
-                <a class="link text-shadow"
+                <a class="link"
                     href="https://www.youtube.com/watch?v=YEKW3v-9NJE&list=PL_ZPVrv19ppW9FY2rHcRsWo9CWMZVpQSK"
                     target="_blank" referrerpolicy="no-referrer" rel="noopener">
                     tour
@@ -17,19 +17,19 @@ const homePage = (): string => `
             </div>
             <div class="w-full md:w-2/3 flex flex-col gap-8">
                 <div class="flex flex-col gap-2">
-                <p class="text text-lg text-shadow text-center md:text-left">
+                <p class="text text-lg text-center md:text-left">
                     Have you joined the TangoTek Supporter Discord server, or are you thinking about signing
                     up and are looking for information?
                 </p>
-                <p class="text text-lg text-shadow text-center md:text-left">
+                <p class="text text-lg text-center md:text-left">
                     Then you've come to the right place! Here you will find everything you need to know
                     about the server, rules, and community!
                 </p>
                 </div>
                 <section class="flex flex-col gap-2">
-                <h2 class="text text-shadow font-medium text-xl text-center">About Tango</h2>
+                <h2 class="text font-medium text-xl text-center">About Tango</h2>
                 <div class="flex flex-col gap-2">
-                    <p class="text text-lg text-shadow text-center md:text-left">
+                    <p class="text text-lg text-center md:text-left">
                     TangoTek is a YouTuber, Twitch streamer, and Hermitcraft member. He produces content for Let's
                     Plays, tutorials, his
                     "What If?" mod series, and the famous dungeon-crawling game Decked Out. <br> His content and streams

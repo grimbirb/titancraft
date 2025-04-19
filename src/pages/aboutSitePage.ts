@@ -3,9 +3,9 @@ const aboutSitePage = (): string => {
   return `
     <main>
         <section class="flex bg-(--background-color) p-3 rounded-lg flex-col gap-2 md:px-30 mb-3">
-            <h1 class="text text-shadow font-bold text-3xl text-center">About The Website</h1>
+            <h1 class="text font-bold text-3xl text-center">About The Website</h1>
             <div class='flex flex-col-reverse items-center md:flex-row md:justify-between w-full'>
-                <section class='w-full md:w-2/3 text text-shadow'>
+                <section class='w-full md:w-2/3 text'>
                     <h2 class='font-bold text-2xl text-center md:text-start'>Hi, I'm <span class='dev'>GrimBirb</span>!</h2>
                     <p>I'm an aspiring Fullstack Developer.</p>
                     <p>This website has been a side-project for me while I was on my Fullstack Development course as a means to learn, and improve on my skills.</p>

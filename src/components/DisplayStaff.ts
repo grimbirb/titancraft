@@ -20,7 +20,7 @@ const displayStaff = (): string => {
         <p class="font-sm font-bold underline text-shadow ${staff.role.toLocaleLowerCase()} text-center ${
       rtl ? "md:text-right" : "md:text-left"
     }">${staff.role}</p>
-        <p class="text text-shadow">${staff.desc}</p>
+        <p class="text">${staff.desc}</p>
       </div>
     </div>`;
     rtl = !rtl;

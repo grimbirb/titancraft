@@ -43,7 +43,7 @@ const displayMods = (
               mod.link
                 ? `a target="_blank" referrerpolicy="no-referrer" rel="noopener" href="${mod.link}"`
                 : "p"
-            } class="text font-bold text-lg text-shadow block text-center md:text-start ${
+            } class="text font-bold text-lg block text-center md:text-start ${
         mod.link ? "hover:underline" : ""
       }">
               ${mod.name}
@@ -69,7 +69,7 @@ const displayMods = (
           </div>
           ${
             mod.desc
-              ? `<p class="grow-1 text text-shadow block text-center md:text-start">
+              ? `<p class="grow-1 text block text-center md:text-start">
             ${mod.desc}
           </p>`
               : ""
