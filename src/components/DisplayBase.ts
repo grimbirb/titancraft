@@ -21,10 +21,15 @@ const displayBase = (): void => {
   bgn.style.backgroundImage = `url(${getRef(bases[randomTitan].ref)}/${
     bases[randomTitan].background
   }.png)`;
-  titanAttribution.innerHTML = `${bases[randomTitan].alt}`;
+  titanAttribution.innerHTML = `${bases[randomTitan].alt}</br><strong>View Full Background</strong>`;
   console.log(
     `Loading bgn: ${bases[randomTitan].ref}-${bases[randomTitan].background}`
   );
-};
 
+  titanAttribution.addEventListener("click", () => {
+    open(
+      `${getRef(bases[randomTitan].ref)}/${bases[randomTitan].background}.png`
+    );
+  });
+};
 export default displayBase;

@@ -106,6 +106,7 @@ body {
   max-width: 133px;
   text-wrap: wrap;
   direction: rtl;
+  cursor: pointer;
 }
 
 #copyright {
