@@ -10,9 +10,9 @@
 :root {
   --secondary-color: #d62410;
   /* #eb2711 */
-  --background-color: #eeeeee80;
+  --background-color: #eeeeeea6;
   --dev-color: #fd9319;
-  --mod-color: #00AA00;
+  --mod-color: #00df00;
   --staff-color: #00AAAA;
   --staff-color-l: #06f7f7;
   --mrs-tango-color: #FF55FF;
@@ -170,7 +170,7 @@ ul li a:hover {
 
 .mod {
   color: var(--mod-color);
-  text-shadow: 0px 0px 4px #082b0f;
+  text-shadow: 0px 0px 4px #054612;
 }
 
 .staff {
