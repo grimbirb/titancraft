@@ -5,7 +5,7 @@ const homePage = (): string => `
         Website</h1>
         <div class="flex flex-col md:flex-row gap-5">
             <div class="w-full md:w-1/2">
-                <img src="/images/s9-end-tour.jpg" alt="The Titancraft Community" class="block">
+                <img src="images/s9-end-tour.jpg" alt="The Titancraft Community" class="block">
                 <p class="text block text-center">
                 The Titancraft Community, End of Season 9
                 <a class="link"
@@ -37,7 +37,7 @@ const homePage = (): string => `
                     these links:
                     </p>
                     <div class="flex flex-col md:gap-6">
-                        <div class="flex items-center md:justify-between text text-shadow text-lg px-5 flex-col md:flex-row">
+                        <div class="flex items-center md:justify-between text text-lg px-5 flex-col md:flex-row">
                             <a class="flex items-center gap-2 link" href="https://www.youtube.com/@TangoTekLP" target="_blank"
                             referrerpolicy="no-referrer" rel="noopener">
                             <img class="rounded-full w-10 inline-block"
@@ -57,7 +57,7 @@ const homePage = (): string => `
                             Twitch
                             </a>
                         </div>
-                        <div class="flex items-center md:justify-between text text-shadow text-lg px-5 flex-col md:flex-row">
+                        <div class="flex items-center md:justify-between text text-lg px-5 flex-col md:flex-row">
                             <a class="flex items-center gap-2 link" href="https://x.com/tangoteklp" target="_blank"
                             referrerpolicy="no-referrer" rel="noopener">
                             <img class="rounded-full w-10 inline-block"
@@ -76,6 +76,9 @@ const homePage = (): string => `
                 </section>
             </div>
         </div>
+        <aside class="w-full mt-10">
+            <p class="text text-center">Want to have your base/projects added as a background? Contact <span class="dev font-bold">GrimBirb</span> on Discord, or submit one <a class='link' target="_blank" referrerpolicy="no-referrer" rel="noopener" href="https://github.com/grimbirb/titancraft/issues/new?template=background-request.md">here</a></p>
+        </aside>
     </section>
 </main>
 `;

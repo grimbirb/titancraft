@@ -5,6 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Titancraft</title>
+  <meta property="og:title" content="Titancraft">
+  <meta property="og:description" content="Titancraft's Unofficial Website">
+  <meta property="og:image" content="src/assets/images/ttekLogo.png">
+  <meta property="theme-color" content="#d62410">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -16,6 +20,9 @@
 <body>
   <div class="h-screen">
     <header class="sticky top-0 z-100 md:px-40 w-screen mb-3">
+      <div id="banner" class="w-screen hidden min-h-[25px] lg:-ml-40">
+        <p class="text text-shadow text-center h-full"></p>
+      </div>
       <div id="pinned" class="md:flex w-full justify-between hidden">
         <a href="./about-site" class="hover:underline text text-shadow">About This Website</a>
         <div class="flex gap-3">
@@ -45,6 +52,9 @@
               <a href="./about">About</a>
             </li>
             <li>
+              <a href="./join">Join Titancraft</a>
+            </li>
+            <li>
               <a href="./staff">Staff</a>
             </li>
             <li>
@@ -56,13 +66,14 @@
             <li>
               <a href="./above">The Above</a>
             </li>
+            <li id="event-list-item" class="font-bold"></li>
           </ul>
         </div>
       </nav>
     </header>
     <div id="page-wrapper">
       <div id="background" class="hidden md:block"></div>
-      <p id="titan-attribution" class="hidden md:block"></p>
+      <p id="titan-attribution" class="hidden md:block z-[10001]"></p>
       <div id="copyright" class="hidden md:block flex-col">
         <p>
           &copy; Made with
@@ -76,10 +87,11 @@
   </div>
   <div id="side-nav"
     class="h-screen w-0 flex md:hidden flex-col justify-between transition-[width] delay-200 bg-(--background-color) fixed z-10000 top-0 left-0 py-3 text text-shadow block font-light backdrop-blur-sm navigation">
-    <div class="flex flex-col text-center gap-3 navigation">
-      <h1 class="text text-shadow block text-2xl underline navigation">Nagivate Website</h1>
+    <div id="sidebar" class="flex flex-col text-center gap-3 navigation">
+      <h1 class="text text-shadow block text-2xl underline navigation">Navigate Website</h1>
       <a href="/" class="sidebar-link">Home Page</a>
       <a href="./about" class="text text-shadow block font-light sidebar-link">About Us</a>
+      <a href="./join" class="text text-shadow block font-light sidebar-link">Join Titancraft</a>
       <a href="./staff" class="text text-shadow block font-light sidebar-link">Meet The Staff</a>
       <a href="./rules" class="text text-shadow block font-light sidebar-link">Rules & FAQ</a>
       <a href="./mods" class="text text-shadow block font-light sidebar-link">Client Mods</a>
@@ -89,7 +101,7 @@
       <div class="flex flex-col text-center gap-3 navigation">
         <a href="./about-site" class="text text-shadow block font-light sidebar-link">About This Website</a>
         <a href="./change-logs" class="text text-shadow block font-light sidebar-link">Change Logs</a>
-        <p id="versionMobile" class="text dev !text-[#DDD605] navigation">v</p>
+        <p id="versionMobile" class="text dev font-bold !text-[#DDD605] navigation">v</p>
       </div>
       <div class="flex flex-col items-center navigation">
         <p class="navigation">

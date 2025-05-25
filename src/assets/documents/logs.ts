@@ -65,6 +65,22 @@ const changeLogs: ILogs = [
     date: "2025/04/01",
     features: [`Added responsiveness`, `Polished UI`, `Full Release`],
   },
+  {
+    version: 1.2,
+    date: "2025/04/27",
+    features: [`Added Events`, "Added Banners"],
+  },
+  {
+    version: 1.5,
+    date: "2025/05/25",
+    features: [
+      `Added Join Titancraft`,
+      "Added Background Suggestions",
+      "Added Mentionable roles (staff, mods, etc)",
+      "Added a Custom Page framework",
+      "Added extra banner customization",
+    ],
+  },
 ].sort((a, b) => b.version - a.version);
 
 const latestVersion = (): string => changeLogs[0].version.toString();

@@ -76,7 +76,7 @@ const displayMods = (
           }
           ${
             mod.notice
-              ? "<p class='font-bold text-shadow text-center md:text-start'>" +
+              ? "<p class='font-bold text-center md:text-start'>" +
                 mod.notice +
                 "</p>"
               : ""

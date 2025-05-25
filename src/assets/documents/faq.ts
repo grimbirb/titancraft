@@ -1,10 +1,11 @@
+import MrsTango from "../../components/hooks/MrsTango";
 import IArticles from "../../interfaces/IArticle";
 
 const faq: IArticles = [
   {
     header: `Frequently Asked Questions - Account and Login Issues`,
     subheader: `I have a payment issue with Patreon! What do I do?`,
-    paragraph: `Please <strong>directly</strong> send a message to <span class='text-(--mrs-tango-color)'>@MrsTango</span>, the mods cannot assist in Patreon related issues.`,
+    paragraph: `Please <strong>directly</strong> send a message to ${MrsTango()}, the mods cannot assist in Patreon related issues.`,
   },
   {
     header: ``,

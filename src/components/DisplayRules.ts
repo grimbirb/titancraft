@@ -9,7 +9,7 @@ const displayRules = (info: string): string => {
     case "discord":
       str = "";
       str += `<div class='w-full flex justify-center'>
-          <img class='block w-full md:w-1/2' src='/images/discord-rules.png' alt='Discord Server Rules'/>
+          <img class='block w-full md:w-1/2' src='images/discord-rules.png' alt='Discord Server Rules'/>
         </div>`;
       str += `<div class='px- md:px-30 flex flex-col gap-4'>`;
       discordRules.forEach((rule) => {
@@ -29,7 +29,7 @@ const displayRules = (info: string): string => {
     case "tc":
       str = "";
       str += `<div class='w-full flex justify-center'>
-          <img class='block w-full md:w-1/2' src='/images/tc-rules.png' alt='Discord Server Rules'/>
+          <img class='block w-full md:w-1/2' src='images/tc-rules.png' alt='Discord Server Rules'/>
         </div>`;
       str += `<div class='px-3 md:px-30 flex flex-col gap-4'>`;
       tcRules.forEach((rule) => {
@@ -49,7 +49,7 @@ const displayRules = (info: string): string => {
     case "faq":
       str = "";
       str += `<div class='w-full flex justify-center'>
-          <img class='block w-full md:w-1/2' src='/images/faq.png' alt='Discord Server Rules'/>
+          <img class='block w-full md:w-1/2' src='images/faq.png' alt='Discord Server Rules'/>
         </div>`;
       str += `<div class='px-3 md:px-30 flex flex-col gap-4'>`;
       faq.forEach((rule) => {

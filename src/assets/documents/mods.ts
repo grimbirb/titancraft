@@ -49,6 +49,15 @@ const mods: IMods = [
     icon: "https://cdn.modrinth.com/data/1LjfkWOR/eee1dd30082422610387f3d5a5bb3369c360efeb_96.webp",
     notice: "",
   },
+  {
+    status: status.approved,
+    name: "Search Stats",
+    desc: "Adds a search bar to the statistics screen.",
+    version: "1.21.1",
+    link: "https://modrinth.com/mod/searchstats",
+    icon: "https://cdn.modrinth.com/data/ExI7GmJi/eabce9740a38e04e147156e56fa0fdb454d16a26_96.webp",
+    notice: "",
+  },
 ];
 
 export default mods;

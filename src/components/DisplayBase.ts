@@ -1,4 +1,4 @@
-import bases from "../assets/documents/bases.ts";
+import bases from "../assets/documents/dev/bases.ts";
 
 const bgn = document.getElementById("background") as HTMLDivElement;
 const titanAttribution = document.getElementById(
@@ -32,4 +32,5 @@ const displayBase = (): void => {
     );
   });
 };
+
 export default displayBase;

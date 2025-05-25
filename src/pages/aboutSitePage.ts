@@ -22,9 +22,12 @@ const aboutSitePage = (): string => {
                     <p>Also, I stream on <a class='text-indigo-600 hover:underline' href='https://www.twitch.tv/grimbirb' target='_blank' referrerpolicy='no-referrer' rel='noopener'>Twitch</a> and have a Titancraft series on <a class='link' href='https://www.youtube.com/@grimbirb' target='_blank' referrerpolicy='no-referrer' rel='noopener'>YouTube</a>! :P (sorry Caable, stole your plug!)</p>
                 </section>
                 <div class='w-2/3 md:w-1/3'>
-                    <img class='block' src='/images/grimbirb.png' alt="GrimBirb's Avatar" />
+                    <img class='block' src='images/grimbirb.png' alt="GrimBirb's Avatar" />
                 </div>
             </div>
+            <aside class="w-full mt-10">
+                <p class="text text-center">Want to have your base/projects added as a background? Contact <span class="dev font-bold">GrimBirb</span> on Discord, or submit one <a class='link' target="_blank" referrerpolicy="no-referrer" rel="noopener" href="https://github.com/grimbirb/titancraft/issues/new?template=background-request.md">here</a></p>
+        </aside>
         </section>
     </main>
 `;

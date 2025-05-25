@@ -1,4 +1,8 @@
 import displayRules from "../components/DisplayRules";
+import Mod from "../components/hooks/Mod";
+import MrsTango from "../components/hooks/MrsTango";
+import Staff from "../components/hooks/Staff";
+import Tango from "../components/hooks/Tango";
 import getServer from "../components/ServerInfo";
 
 let info: string = "discord";
@@ -22,11 +26,13 @@ const rulesPage = () => {
             When you first chat on the server you will be assigned a role appropriate to your status, granting you access to other server channels.
           </p>
           <p>
-            If a <span class='mod'>mod</span> doesn't respond in #ask-a-mod, use <span class='staff'>@Staff</span> to get our attention. <br/>
+            If a ${Mod("mod")} doesn't respond in #ask-a-mod, use ${Staff(
+    "@Staff"
+  )} to get our attention. <br/>
             Please note, any message posted in the #ask-a-mod channel will ping the staff team
           </p>
           <p>
-            <span class='mod'>Moderators</span> have their names coloured in-game and Discord accordingly, the same applies to <span class='staff'>Staff</span>, <span class='text-(--tango-color)'>Tango</span>, and <span class='text-(--mrs-tango-color)'>Mrs. Tango</span>, and other Patreon tiers.
+            ${Mod()} have their names coloured in-game and Discord accordingly, the same applies to ${Staff()}, ${Tango()}, and ${MrsTango()}, and other Patreon tiers.
           </p>
           <p>
             These rules are meant to keep the community fair, safe and avoid conflicts. Most of them are common sense yet expected to be known. Ingnorance of a rule is not a valid excuse of not following it. <br/>
@@ -50,6 +56,9 @@ const rulesPage = () => {
         <div id="info-container">
           ${displayRules(info)}
         </div>
+        <aside class="w-full mt-10">
+          <p class="text text-center">Want to have your base/projects added as a background? Contact <span class="dev font-bold">GrimBirb</span> on Discord, or submit one <a class='link' target="_blank" referrerpolicy="no-referrer" rel="noopener" href="https://github.com/grimbirb/titancraft/issues/new?template=background-request.md">here</a></p>
+        </aside>
       </section>
     </main>
   `;
