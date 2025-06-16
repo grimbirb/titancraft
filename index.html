@@ -23,7 +23,7 @@
 
     <script>
         function updateCountdown() {
-            const targetDate = new Date("Sep 16, 2025 01:00:00").getTime();
+            const targetDate = new Date(Date.UTC(2025, 8, 16, 1, 0, 0));
             const now = new Date().getTime();
             const timeLeft = targetDate - now;
 
